@@ -1,35 +1,35 @@
 ## Easy-Wav2Lip-WebUI:
 
-## Простая:
-* Вы можете запустить WebUI на google colab или у себя.
-     * вам не нужно долго читать оригинальный репозиторий и разбираться с установкой, для нее есть 2 файла (.bat и .sh)
-     * Google Colab имеет всего одну ячейку для работы
-     * Пользователям Windows достаточно запустить один файл для работы
-* Простая документация которая поможет вам
-     * Больше не нужно думать, что за что отвечает
+## Simple:
+* You can run WebUI on google colab or on your own.
+* You don't need to read the original repository and figure out the installation, there are 2 files (.bat and .sh) for it
+* Google Colab has only one cell to work
+* Windows users just need to run one file to work
+* Simple documentation to help you
+* No more thinking about what is responsible for what
 
-## Быстрая:
-Для моего тестового 9 секундного видео в качестве 720p и в 60fps используя Colab Tesla T4:
-| Оригинальный Wav2Lip | Easy-Wav2Lip-WebUI |
+## Fast:
+For my test 9 second video in 720p quality and 60fps using Colab Tesla T4:
+| Original Wav2Lip | Easy-Wav2Lip-WebUI |
 |:-------|:-----|
-| Время работы: 6m 53s | Время работы: 56s |
+| Runtime: 6m 53s | Runtime: 56s |
 
-Это не опечатка! Мой клип сокращается с почти 7 минут до менее чем 1 минуты!
+That's not a typo! My clip is shortened from almost 7 minutes to less than 1 minute!
 
-Данные отслеживания сохраняются между генерациями одного и того же видео, что экономит еще больше времени:
-| Easy-Wav2Lip-WebUI для работы с тем же видео |
+Tracking data is saved between generations of the same video, saving even more time:
+| Easy-Wav2Lip-WebUI for working with the same video |
 |:-----|
-| Время работы: 25s |
+| Runtime: 25s |
 
-# Установка:
+# Installation:
 
-### Для более простого использования можете воспользоваться Colab:
+### For easier use, you can use Colab:
 
 ### Google Colab:
 [https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip-WebUI/blob/main/Easy_Wav2Lip_WebUI.ipynb](https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip-WebUI/blob/main/Easy_Wav2Lip_WebUI.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip-WebUI/blob/main/Easy_Wav2Lip_WebUI.ipynb)
 
-## Инструкции по установке можете найти также в оригинальном репозитории 
-### Почитать можно тут:
+## Installation instructions can also be found in the original repository
+### You can read it here:
 https://github.com/anothermartz/Easy-Wav2Lip
